@@ -1,10 +1,13 @@
+const Helpers = require("./helpers");
 
-module.exports = class Merger{
+
+module.exports = class Merger extends Helpers {
 	/**
 	 * @param propertyToCompare - {String} Property name on which to preform existence comparison for merge determination
 	 * @param compareProcessor - {Function} Function to pre-process value comparing if present
 	 */
 	constructor(propertyToCompare, compareProcessor) {
+	  super();
 		if (!propertyToCompare) {
 			this.propertyToCompare = "address";
 		} else {

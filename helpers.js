@@ -3,6 +3,11 @@ const fs = require('fs');
 
 module.exports = class Helpers {
 
+
+  checkIfPathOrArray(value) {
+    return _.isString(value) ? require(value) : value;
+  }
+
 	/**
 	 * @param valuesList {Array|String} - Array of objects or Filename of an array of objects  to be sorted
 	 * @param property {String} - Property on which to sort the objects

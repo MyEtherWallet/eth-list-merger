@@ -2,7 +2,7 @@
   "name": "eth-list-merger",
   "version": "0.0.1",
   "scripts": {
-    "example" : "node example.js",
+    "example": "node example.js",
     "test": "jest"
   },
   "dependencies": {

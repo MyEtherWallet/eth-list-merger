@@ -60,4 +60,4 @@ ethListMerger.js Static Methods:
 <dd>result -> the merge results to write to the file.</dd>
 </dl>
 
-### See example.js for some usage examples
+### See ethListMerge_example.js for some usage examples
