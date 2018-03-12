@@ -1,7 +1,7 @@
 const EthListMerger = require('./ethListMerger');
 
-const etherWalletPath = "./etherwallet/app/scripts/tokens/ethTokens.json";
-const ethereum_listPath = "./ethereum-lists/tokens/tokens-eth.json";
+const etherWalletPath = "./examples/etherwallet_tokens.json";
+const ethereum_listPath = "./examples/ethereumList_tokens.json";
 
 // Example Usage of getDifference
 let differenceValues = EthListMerger.getDifference(etherWalletPath, ethereum_listPath, "address");
@@ -16,4 +16,3 @@ EthListMerger.toFile("./forEatherWallet_Example.json", forEatherWalletResult);
 let forEathereumListValues = EthListMerger.merge(ethereum_listPath, etherWalletPath, "address");
 let forEathereumListResult = EthListMerger.toEthereumListFormat(forEathereumListValues);
 EthListMerger.toFile("./forEathereumList_Example.json", forEathereumListResult);
-
