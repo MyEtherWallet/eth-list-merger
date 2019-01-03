@@ -1,5 +1,13 @@
 [
-  {
+{
+    "address": "0xF9005ecaB0B976D0bd502147078274b83cc7c412",
+    "symbol": "MOV",
+    "decimal": 18,
+    "type": "default"
+  },  
+
+	
+{
     "address": "0x7dd7f56d697cc0f2b52bd55c057f378f1fe6ab4b",
     "symbol": "$TEAK",
     "decimal": 18,
