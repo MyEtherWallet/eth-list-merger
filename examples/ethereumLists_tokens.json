@@ -7942,20 +7942,25 @@
 		"name": "Loopring",
 		"ens_address": "",
 		"website": "https://loopring.org",
-		"logo": { "src": "", "width": "", "height": "", "ipfs_hash": "" },
+		"logo": {
+			"src": "https://loopring.org/resources/LRC/blue.svg",
+			"width": "300",
+			"height": "300",
+			"ipfs_hash": ""
+		},
 		"support": { "email": "foundation@loopring.org", "url": "" },
 		"social": {
-			"blog": "",
+			"blog": "https://medium.com/loopring-protocol",
 			"chat": "",
 			"facebook": "",
 			"forum": "",
-			"github": "",
+			"github": "https://github.com/loopring",
 			"gitter": "",
 			"instagram": "",
 			"linkedin": "",
-			"reddit": "",
+			"reddit": "https://www.reddit.com/r/loopringorg",
 			"slack": "",
-			"telegram": "",
+			"telegram": "https://t.me/loopring_en",
 			"twitter": "https://twitter.com/loopringorg",
 			"youtube": ""
 		}
