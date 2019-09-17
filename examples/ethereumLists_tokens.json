@@ -7937,9 +7937,9 @@
 	},
 	{
 		"symbol": "LRC",
-		"address": "0xEF68e7C694F40c8202821eDF525dE3782458639f",
+		"address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
 		"decimals": 18,
-		"name": "LRC",
+		"name": "Loopring",
 		"ens_address": "",
 		"website": "https://loopring.org",
 		"logo": { "src": "", "width": "", "height": "", "ipfs_hash": "" },
