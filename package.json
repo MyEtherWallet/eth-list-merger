@@ -9,6 +9,6 @@
     "lodash": "^4.17.5"
   },
   "devDependencies": {
-    "jest": "^22.3.0"
+    "jest": "^29.3.1"
   }
 }
